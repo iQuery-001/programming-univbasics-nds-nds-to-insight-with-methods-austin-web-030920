@@ -10,6 +10,7 @@ def gross_for_director(director_data)
     director_gross += director_data[:movies][:worldwide_grosses]
     movie_counter += 1
   end
+  puts director_gross
   director_gross
 end
 
